@@ -760,9 +760,9 @@
 				<function start="29" end="29" comment="MACRO_NVICAM_LDISCLAIMER" mask="11111111b">kein_ld</function>
 			</group>
 		</code>
-	<code description="ENABLE volume to be retained up to 100% rather than startup at 25%">
+	<code description="ENABLE volume to be retained up to 80% at startup rather than factory 25%">
 			<group id="3002">
-				<function start="23" end="23" comment="VOL_MAX_ON" mask="11111111b">32</function>
+				<function start="23" end="23" comment="VOL_MAX_ON" mask="11111111b">50</function>
 			</group>
 		</code>
 	<code description="ENABLE Real-Time Traffic Info">
@@ -2357,9 +2357,9 @@
 				<function start="8" end="8" comment="DEFAULT_ZEIT_EINHEIT" mask="00010000b">24h</function>
 			</group>
 		</code>
-	<code description="Allows volume to be retained up to 100% rather than startup at 25%">
+	<code description="Allows volume to be retained up to 80% at startup rather than factory 25%">
 			<group id="3002">
-				<function start="3" end="3" comment="VOL_MAX_ON" mask="11111111b">32</function>
+				<function start="3" end="3" comment="VOL_MAX_ON" mask="11111111b">50</function>
 			</group>
 		</code>
 	<code description="ENABLE Owners Manual in Motion (ID4 ONLY)">
